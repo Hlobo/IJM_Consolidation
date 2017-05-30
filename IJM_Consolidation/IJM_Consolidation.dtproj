@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProductVersion>10.50.6000.34</ProductVersion>
+  <SchemaVersion>9.0.1.0</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>IJM_Consolidation.database</Name>
+    <FullPath>IJM_Consolidation.database</FullPath>
+  </Database>
+  <Cubes />
+  <Dimensions />
+  <DataSources />
+  <DataSourceViews />
+  <MiningModels />
+  <Roles />
+  <Miscellaneous />
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <OutputPath>bin</OutputPath>
+        <ConnectionMappings />
+        <ConnectionProviderMappings />
+        <ConnectionSecurityMappings />
+        <DatabaseStorageLocations />
+      </Options>
+    </Configuration>
+  </Configurations>
+  <DTSPackages>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbAFTOrgnInfo.dtsx</Name>
+      <FullPath>USR.tbAFTOrgnInfo.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>MainWorkflow.dtsx</Name>
+      <FullPath>MainWorkflow.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbAFTParticipant.dtsx</Name>
+      <FullPath>USR.tbAFTParticipant.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbAFTService.dtsx</Name>
+      <FullPath>USR.tbAFTService.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbASODomainScore.dtsx</Name>
+      <FullPath>USR.tbASODomainScore.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbContactHistory.dtsx</Name>
+      <FullPath>USR.tbContactHistory.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbCase.dtsx</Name>
+      <FullPath>USR.tbCase.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbEvent.dtsx</Name>
+      <FullPath>USR.tbEvent.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbCaseContact.dtsx</Name>
+      <FullPath>USR.tbCaseContact.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbEventCases.dtsx</Name>
+      <FullPath>USR.tbEventCases.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbOrganization.dtsx</Name>
+      <FullPath>USR.tbOrganization.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbContact.dtsx</Name>
+      <FullPath>USR.tbContact.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbCaseCrimeLocations.dtsx</Name>
+      <FullPath>USR.tbCaseCrimeLocations.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbOrgnCrimeHistory.dtsx</Name>
+      <FullPath>USR.tbOrgnCrimeHistory.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbObjectAttribute.dtsx</Name>
+      <FullPath>USR.tbObjectAttribute.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbCaseStatus.dtsx</Name>
+      <FullPath>USR.tbCaseStatus.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbCaseWorkflow.dtsx</Name>
+      <FullPath>USR.tbCaseWorkflow.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbTreatmentPlan.dtsx</Name>
+      <FullPath>USR.tbTreatmentPlan.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbNAOptions.dtsx</Name>
+      <FullPath>USR.tbNAOptions.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbNAQuestions.dtsx</Name>
+      <FullPath>USR.tbNAQuestions.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbNASection.dtsx</Name>
+      <FullPath>USR.tbNASection.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbASOScoreValue.dtsx</Name>
+      <FullPath>USR.tbASOScoreValue.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbASOTest.dtsx</Name>
+      <FullPath>USR.tbASOTest.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbEventAttendees.dtsx</Name>
+      <FullPath>USR.tbEventAttendees.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbChildObjectAttribute.dtsx</Name>
+      <FullPath>USR.tbChildObjectAttribute.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbNote.dtsx</Name>
+      <FullPath>USR.tbNote.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbCaseNote.dtsx</Name>
+      <FullPath>USR.tbCaseNote.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbTreatmentPlanStrength.dtsx</Name>
+      <FullPath>USR.tbTreatmentPlanStrength.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbContactFamily.dtsx</Name>
+      <FullPath>USR.tbContactFamily.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbContactGroup.dtsx</Name>
+      <FullPath>USR.tbContactGroup.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbEventHistory.dtsx</Name>
+      <FullPath>USR.tbEventHistory.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbEventOrgns.dtsx</Name>
+      <FullPath>USR.tbEventOrgns.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbGroup.dtsx</Name>
+      <FullPath>USR.tbGroup.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbNeedsAssessment.dtsx</Name>
+      <FullPath>USR.tbNeedsAssessment.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbOrgnContact.dtsx</Name>
+      <FullPath>USR.tbOrgnContact.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbContactRelation.dtsx</Name>
+      <FullPath>USR.tbContactRelation.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.Template.dtsx</Name>
+      <FullPath>USR.Template.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbContactNote.dtsx</Name>
+      <FullPath>USR.tbContactNote.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbCaseLegalElements.dtsx</Name>
+      <FullPath>USR.tbCaseLegalElements.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbLegalFact.dtsx</Name>
+      <FullPath>USR.tbLegalFact.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbLegalFactContact.dtsx</Name>
+      <FullPath>USR.tbLegalFactContact.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbLegalFactElement.dtsx</Name>
+      <FullPath>USR.tbLegalFactElement.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbLegalFactOrgn.dtsx</Name>
+      <FullPath>USR.tbLegalFactOrgn.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbASOTestDataSource.dtsx</Name>
+      <FullPath>USR.tbASOTestDataSource.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbCaseNoteFactor.dtsx</Name>
+      <FullPath>USR.tbCaseNoteFactor.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbCaseQuestions.dtsx</Name>
+      <FullPath>USR.tbCaseQuestions.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbCaseRefDocs.dtsx</Name>
+      <FullPath>USR.tbCaseRefDocs.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbCaseRefSource.dtsx</Name>
+      <FullPath>USR.tbCaseRefSource.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbCaseTasks.dtsx</Name>
+      <FullPath>USR.tbCaseTasks.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbCaseUserProfile.dtsx</Name>
+      <FullPath>USR.tbCaseUserProfile.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbCaseWorkflowContacts.dtsx</Name>
+      <FullPath>USR.tbCaseWorkflowContacts.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbUserRole.dtsx</Name>
+      <FullPath>USR.tbUserRole.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbTreatmentPlanGoal.dtsx</Name>
+      <FullPath>USR.tbTreatmentPlanGoal.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbTaskUser.dtsx</Name>
+      <FullPath>USR.tbTaskUser.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbTask.dtsx</Name>
+      <FullPath>USR.tbTask.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbPosition.dtsx</Name>
+      <FullPath>USR.tbPosition.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbOrgnNote.dtsx</Name>
+      <FullPath>USR.tbOrgnNote.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbOldRefNotes.dtsx</Name>
+      <FullPath>USR.tbOldRefNotes.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbOldEventFUR.dtsx</Name>
+      <FullPath>USR.tbOldEventFUR.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbCaseWorkflowOrgns.dtsx</Name>
+      <FullPath>USR.tbCaseWorkflowOrgns.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbCCareNote.dtsx</Name>
+      <FullPath>USR.tbCCareNote.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbDocContacts.dtsx</Name>
+      <FullPath>USR.tbDocContacts.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbDocOrgns.dtsx</Name>
+      <FullPath>USR.tbDocOrgns.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbDocuments.dtsx</Name>
+      <FullPath>USR.tbDocuments.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbEventContactHistory.dtsx</Name>
+      <FullPath>USR.tbEventContactHistory.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbEventDocs.dtsx</Name>
+      <FullPath>USR.tbEventDocs.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbEventNote.dtsx</Name>
+      <FullPath>USR.tbEventNote.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbEventObjectiveDepts.dtsx</Name>
+      <FullPath>USR.tbEventObjectiveDepts.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbEventObjectives.dtsx</Name>
+      <FullPath>USR.tbEventObjectives.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbFONoteType.dtsx</Name>
+      <FullPath>USR.tbFONoteType.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbLegalFactDocument.dtsx</Name>
+      <FullPath>USR.tbLegalFactDocument.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbNoteFactor.dtsx</Name>
+      <FullPath>USR.tbNoteFactor.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbObjectSecurityConstraint.dtsx</Name>
+      <FullPath>USR.tbObjectSecurityConstraint.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbLegalFactNote.dtsx</Name>
+      <FullPath>USR.tbLegalFactNote.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>USR.tbCacheTag.dtsx</Name>
+      <FullPath>USR.tbCacheTag.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+  </DTSPackages>
+</Project>
